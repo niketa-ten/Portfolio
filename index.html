@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niketa Singh - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <img src="cropped_circle_image (1).png" alt="Niketa" />
+        <span class="nav-name">Niketa</span>
+      </div>
+
+      <ul class="nav-links">
+        <li data-target="#about">About</li>
+        <li data-target="#portfolio">Portfolio</li>
+        <li data-target="#contact">Contact</li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero-text">
+      <h1>Niketa Singh<span class="dot">.</span></h1>
+      <p class="text">Crafting Calm, Aesthetic Digital Experiences</p>
+      <div class="explore">Explore <span>↓</span></div>
+    </div>
+
+    <!-- Divider -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="user">
+        <img src="niketa.png" alt="Niketa" />
+      </div>
+      <div class="glass-card">
+        <h2>About Me:</h2>
+        <p>
+          Hello! I'm <b>Niketa Singh</b>, a Web developer passionate about
+          creating seamless digital experiences. I specialize in
+          <b>Website and front-end Development</b>.
+        </p>
+        <ul>
+          <li>Student - Practicing Website Development</li>
+          <li>Enthusiastic to Serve People/Businesses</li>
+          <li>Lifelong Learner</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="section-divider">
+      <div class="divider-line"></div>
+    </div>
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">
+          Some of my recent work in web design & development
+        </p>
+      </div>
+
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev" id="prevBtn">←</button>
+
+        <div class="carousel-container">
+          <div class="carousel" id="projectCarousel">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="currency-app.png" alt="Project 1" />
+              </div>
+              <div class="project-info">
+                <h3>Curreny converter</h3>
+                <p>
+                  Real-time exchange tracking with 99.9% API uptime and a focus on sub-1s load times.
+                </p>
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                </div>
+                <a
+                  href="https://niketa-ten.github.io/currency_converter/"
+                  class="project-link"
+                  >View Live →</a
+                >
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="portfolio.png" alt="Project 3" />
+              </div>
+              <div class="project-info">
+                <h3>My Portfolio</h3>
+                <p>
+                  A Calm, and Aesthetic Portfolio built by Me (Niketa Singh).
+                </p>
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                </div>
+                <a
+                  href="https://niketa-ten.github.io/currency_converter/"
+                  class="project-link"
+                  >View Live →</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn next" id="nextBtn">→</button>
+      </div>
+    </section>
+
+    <div class="section-divider">
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-header">
+          <h2>Let's Connect</h2>
+          <p>
+            I'm always excited to discuss new opportunities, collaborations, or
+            just say hello.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="info-item">
+              <span class="icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  color="#2f5c57"
+                  fill="none"
+                  stroke="#2f5c57"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M2 6L8.91302 9.91697C11.4616 11.361 12.5384 11.361 15.087 9.91697L22 6"
+                  />
+                  <path
+                    d="M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z"
+                  /></svg
+              ></span>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:niketa614@gmail.com">niketa614@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  color="#2f5c57"
+                  fill="none"
+                  stroke="#2f5c57"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M7 18C5.17107 18.4117 4 19.0443 4 19.7537C4 20.9943 7.58172 22 12 22C16.4183 22 20 20.9943 20 19.7537C20 19.0443 18.8289 18.4117 17 18"
+                  />
+                  <path
+                    d="M14.5 9C14.5 10.3807 13.3807 11.5 12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9Z"
+                  />
+                  <path
+                    d="M13.2574 17.4936C12.9201 17.8184 12.4693 18 12.0002 18C11.531 18 11.0802 17.8184 10.7429 17.4936C7.6543 14.5008 3.51519 11.1575 5.53371 6.30373C6.6251 3.67932 9.24494 2 12.0002 2C14.7554 2 17.3752 3.67933 18.4666 6.30373C20.4826 11.1514 16.3536 14.5111 13.2574 17.4936Z"
+                  /></svg
+              ></span>
+              <div>
+                <h3>Location</h3>
+                <p>Jaipur, Rajasthan, India</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  color="#2f5c57"
+                  fill="none"
+                  stroke="#2f5c57"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22"
+                  />
+                  <path
+                    d="M20 5.69899C19.0653 5.76636 17.8681 6.12824 17.0379 7.20277C15.5385 9.14361 14.039 9.30556 13.0394 8.65861C11.5399 7.6882 12.8 6.11636 11.0401 5.26215C9.89313 4.70542 9.73321 3.19045 10.3716 2"
+                  />
+                  <path
+                    d="M2 11C2.7625 11.6621 3.83046 12.2682 5.08874 12.2682C7.68843 12.2682 8.20837 12.7649 8.20837 14.7518C8.20837 16.7387 8.20837 16.7387 8.72831 18.2288C9.06651 19.1981 9.18472 20.1674 8.5106 21"
+                  />
+                  <path
+                    d="M19.8988 19.9288L22 22M21.1083 17.0459C21.1083 19.2805 19.2932 21.0919 17.0541 21.0919C14.8151 21.0919 13 19.2805 13 17.0459C13 14.8114 14.8151 13 17.0541 13C19.2932 13 21.1083 14.8114 21.1083 17.0459Z"
+                  /></svg
+              ></span>
+              <div>
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="#" target="_blank">LinkedIn</a>
+                  <a href="#" target="_blank">Instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            
+            <!-- Web3Forms Key -->
+            <input type="hidden" name="access_key" value="6a018ebb-4a7d-40e0-a64e-1470467a149c">
+
+            <!-- Optional: Subject -->
+            <input type="hidden" name="subject" value="New Contact Message from Portfolio">
+
+            <!-- Optional: Redirect (remove if not needed) -->
+            <!-- <input type="hidden" name="redirect" value="https://yourwebsite.com/thanks.html"> -->
+
+            <div class="form-group">
+              <input 
+                type="text" 
+                name="name" 
+                id="name"
+                class="form-input"
+                placeholder="Your Name" 
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <input 
+                type="email" 
+                name="email" 
+                id="email"
+                class="form-input"
+                placeholder="Your Email" 
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <textarea 
+                name="message" 
+                id="message"
+                class="form-input"
+                rows="5"
+                placeholder="Your Message" 
+                required
+              ></textarea>
+            </div>
+
+            <!-- Honeypot (anti-spam) -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <button type="submit" class="submit-btn">
+              Send Message
+            </button>
+
+            <p id="form-message" class="form-message"></p>
+
+          </form>
+  
+        </div>
+      </div>
+    </section>
+    <section>
+    <div class="quote-section">
+      <p>If there is no struggle, there is no progress.</p>
+      <span>— Frederick Douglass</span>
+    </div>
+    <footer class="footer">
+  <div class="footer-content">
+
+    <h3 class="footer-logo">Niketa</h3>
+
+    <p class="footer-tagline">
+      Building clean and modern web experiences.
+    </p>
+
+    <div class="footer-links">
+  <a href="https://github.com/niketa-ten"><i class="fab fa-github"></i></a>
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+  <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+</div>
+
+    <p class="footer-copy">
+      © 2026 Niketa. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+  </body>
+  <script>
+    // Custom smooth scroll with slower duration + easing
+    function smoothScrollTo(targetElement, duration = 1200) {
+      // 1200ms = 1.2 seconds (feels calm)
+      const navHeight = document.querySelector("nav").offsetHeight + 50; // extra breathing room
+      const targetPosition =
+        targetElement.getBoundingClientRect().top + window.scrollY;
+      const startPosition = window.scrollY;
+      const distance = targetPosition - startPosition - navHeight;
+
+      let startTime = null;
+
+      function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+
+        // Gentle easing (ease-out cubic - feels premium and calm)
+        const ease = 1 - Math.pow(1 - progress, 3);
+
+        window.scrollTo(0, startPosition + distance * ease);
+
+        if (timeElapsed < duration) {
+          requestAnimationFrame(animation);
+        }
+      }
+
+      requestAnimationFrame(animation);
+    }
+
+    // Nav link click handler
+    document.querySelectorAll(".nav-links li").forEach((link) => {
+      link.addEventListener("click", function () {
+        const targetSelector = this.getAttribute("data-target");
+        const targetSection = document.querySelector(targetSelector);
+
+        if (targetSection) {
+          smoothScrollTo(targetSection, 1200); // Change 1200 to 1500 for even slower
+        }
+
+        // Close mobile menu
+        const navLinksContainer = document.querySelector(".nav-links");
+        const hamburger = document.querySelector(".hamburger");
+        if (navLinksContainer) navLinksContainer.classList.remove("active");
+        if (hamburger) hamburger.classList.remove("active");
+      });
+    });
+
+    // Hamburger toggle
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    if (hamburger && navLinks) {
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      });
+    }
+
+    const carousel = document.getElementById("projectCarousel");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const cards = document.querySelectorAll(".project-card");
+
+let currentIndex = 1; // Start at 1 because of the clone
+const totalCards = cards.length;
+
+// 1. Clone first and last
+const firstClone = cards[0].cloneNode(true);
+const lastClone = cards[totalCards - 1].cloneNode(true);
+
+carousel.appendChild(firstClone);
+carousel.insertBefore(lastClone, cards[0]);
+
+// 2. Function to calculate width dynamically
+function getSlideWidth() {
+    return carousel.parentElement.offsetWidth; 
+}
+
+function updatePosition(transition = true) {
+    const width = getSlideWidth();
+    carousel.style.transition = transition ? "transform 0.5s ease" : "none";
+    carousel.style.transform = `translateX(-${width * currentIndex}px)`;
+}
+
+// 3. Initial Position
+window.addEventListener('load', () => {
+    updatePosition(false);
+});
+
+// 4. Button Listeners
+nextBtn.addEventListener("click", () => {
+    if (currentIndex >= totalCards + 1) return;
+    currentIndex++;
+    updatePosition();
+});
+
+prevBtn.addEventListener("click", () => {
+    if (currentIndex <= 0) return;
+    currentIndex--;
+    updatePosition();
+});
+
+// 5. Infinite Loop Jump
+carousel.addEventListener("transitionend", () => {
+    if (currentIndex === totalCards + 1) {
+        currentIndex = 1;
+        updatePosition(false);
+    }
+    if (currentIndex === 0) {
+        currentIndex = totalCards;
+        updatePosition(false);
+    }
+});
+
+// 6. Resize Fix (Crucial for Responsiveness)
+window.addEventListener("resize", () => {
+    updatePosition(false);
+});
+const form = document.getElementById('contactForm'); // ✅ fixed id
+const submitBtn = form.querySelector('.submit-btn'); // ✅ matches your button class
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    const originalText = submitBtn.textContent;
+
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            alert("Success! Your message has been sent.");
+            form.reset();
+        } else {
+            alert("Error: " + data.message);
+        }
+
+    } catch (error) {
+        alert("Something went wrong. Please try again.");
+    } finally {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    }
+});
+  </script>
+</html>
